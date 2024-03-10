@@ -1,0 +1,110 @@
+/* Add CSS here */
+body {
+    background-color: #eceef7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    height: 300px;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 0.3em;
+}
+
+.holder {
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calls {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile {
+    margin-top: 30px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+
+.closet-1 {
+    height: 100px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closet-2 {
+    height: 100px;
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.closet-2 h1 {
+    font-size: 15px;
+}
+
+.closet-2 h2 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.closet-2 p {
+    font-size: 10px;
+}
+
+img {
+    height: 85px;
+    width: 85px;
+    object-fit: cover;
+    border-radius: 4em;
+}
+
+.btn {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-1 {
+    border-width: 2px;
+    width: 45%;
+    height: 35px;
+    border-radius: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.btn-2 {
+    background-color: #1ba371;
+    width: 45%;
+    height: 35px;
+    border-radius: 0.2em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+}
